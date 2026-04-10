@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Procurement Match — Request Scorecard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Spline+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Request Scorecard</p>
+          <h1>Contextual Procurement Matching</h1>
+          <p class="subhead">
+            Score a product or service request with transparent subcategory
+            breakdowns, price benchmarks, and risk alignment.
+          </p>
+        </div>
+        <div class="meta-pill">Request ID: 7B6249</div>
+      </header>
+
+      <section class="scorecard">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2>Dragon Pharmacology</h2>
+              <p class="card-subtitle">Proposal · Preferred Supplier</p>
+            </div>
+            <div class="status-row">
+              <span class="status status-green">Advantage+</span>
+              <span class="status status-amber">Active</span>
+            </div>
+          </div>
+
+          <div class="badge-row" role="list">
+            <span class="badge badge-green">Preferred</span>
+            <span class="badge badge-gold">HEOR</span>
+            <span class="badge badge-red">AW</span>
+            <span class="badge badge-brown">HBS</span>
+            <span class="badge badge-gray">Div</span>
+            <span class="badge badge-slate">Sust</span>
+          </div>
+
+          <div class="score-grid">
+            <div class="score-overview">
+              <div class="score-ring" aria-hidden="true">
+                <div class="score-ring-inner">
+                  <span class="score-value">8.4</span>
+                  <span class="score-label">Overall</span>
+                </div>
+              </div>
+              <div class="score-copy">
+                <h3>Request Fit Score</h3>
+                <p>
+                  A 1–10 composite derived from price position, supplier
+                  capability, and risk alignment with the request context.
+                </p>
+                <div class="score-foot">
+                  <span>Confidence</span>
+                  <strong>High</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="subscore">
+              <div class="subscore-row">
+                <div>
+                  <span class="subscore-title">Price Benchmark</span>
+                  <span class="subscore-desc">Compared to peer quotes</span>
+                </div>
+                <div class="subscore-value">8.9</div>
+              </div>
+              <div class="bar">
+                <span style="width: 89%"></span>
+              </div>
+
+              <div class="subscore-row">
+                <div>
+                  <span class="subscore-title">Supplier Capability</span>
+                  <span class="subscore-desc">Delivery, quality, capacity</span>
+                </div>
+                <div class="subscore-value">7.8</div>
+              </div>
+              <div class="bar">
+                <span style="width: 78%"></span>
+              </div>
+
+              <div class="subscore-row">
+                <div>
+                  <span class="subscore-title">Risk Alignment</span>
+                  <span class="subscore-desc">Compliance + business risk</span>
+                </div>
+                <div class="subscore-value">8.1</div>
+              </div>
+              <div class="bar">
+                <span style="width: 81%"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="insights">
+            <div>
+              <h4>Price Benchmarking</h4>
+              <p>
+                New tool: compares quoted total cost against historical purchases
+                and real-time market rates to flag outliers.
+              </p>
+            </div>
+            <div class="benchmark-panel">
+              <div class="benchmark-row">
+                <span class="benchmark-label">Quoted Total</span>
+                <span class="benchmark-value">$82.4K</span>
+              </div>
+              <div class="benchmark-row">
+                <span class="benchmark-label">Peer Median</span>
+                <span class="benchmark-value">$90.1K</span>
+              </div>
+              <div class="benchmark-row">
+                <span class="benchmark-label">Market Index</span>
+                <span class="benchmark-value">$95.6K</span>
+              </div>
+              <div class="benchmark-row">
+                <span class="benchmark-label">Savings Potential</span>
+                <span class="benchmark-value positive">+8.6%</span>
+              </div>
+              <div class="chip-row">
+                <span class="chip">Below Median</span>
+                <span class="chip">Stable Trend</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="risk-match">
+            <div>
+              <h4>Risk Match</h4>
+              <p>
+                Aligns risk tolerance with supplier profile and contractual
+                obligations for the request scope.
+              </p>
+            </div>
+            <div class="risk-panel">
+              <div class="risk-item">
+                <span class="risk-label">Regulatory Exposure</span>
+                <span class="risk-tag low">Low</span>
+              </div>
+              <div class="risk-item">
+                <span class="risk-label">Data Sensitivity</span>
+                <span class="risk-tag medium">Medium</span>
+              </div>
+              <div class="risk-item">
+                <span class="risk-label">Supply Continuity</span>
+                <span class="risk-tag low">Low</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
