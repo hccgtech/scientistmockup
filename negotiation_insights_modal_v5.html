@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Negotiation Insights</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="negotiation-page">
+    <div class="negotiation-page__wrap">
+      <div class="modal negotiation-modal" role="dialog" aria-labelledby="negotiationModalTitle" aria-modal="true">
+        <div class="modal__header">
+          <div class="modal__header-inner">
+            <div>
+              <p class="modal__eyebrow">Supplier Negotiation Intelligence</p>
+              <h2 class="modal__title" id="negotiationModalTitle">Negotiation Insights</h2>
+              <p class="modal__subtitle">Acme Pharma · RFP-28491 · Value Dossiers Development</p>
+            </div>
+            <button type="button" class="modal__close" aria-label="Close">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" width="18" height="18" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal__context-bar">
+          <span class="modal__context-label">Shared By Platform</span>
+          <span class="modal__context-value">Acme Pharma · Strategic Sourcing · Request #RFP-28491</span>
+        </div>
+        <div class="modal__body">
+          <div class="modal__insights">
+            <div class="negotiation-stats-row">
+              <div class="negotiation-stat"><p class="negotiation-stat__label">Avg. Savings Through Negotiation</p><p class="negotiation-stat__figure">$8,400</p><p class="negotiation-stat__note">Across 38 comparable requests (12 mo.)</p></div>
+              <div class="negotiation-stat"><p class="negotiation-stat__label">Avg. Savings %</p><p class="negotiation-stat__figure">11.2%</p><p class="negotiation-stat__note">Median discount secured by buyers</p></div>
+              <div class="negotiation-stat"><p class="negotiation-stat__label">Avg. Rounds To Close</p><p class="negotiation-stat__figure">2.4</p><p class="negotiation-stat__note">Counter-offers before agreement</p></div>
+              <div class="negotiation-stat"><p class="negotiation-stat__label">Deals With Concessions</p><p class="negotiation-stat__figure">68%</p><p class="negotiation-stat__note">Non-price terms adjusted at close</p></div>
+            </div>
+            <div class="modal__insights-row">
+              <div class="insight-card insight-card--paired">
+                <div class="insight-card__head">
+                  <span class="insight-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18M3 15h18"/><circle cx="9" cy="9" r="2"/><circle cx="15" cy="15" r="2"/></svg></span>
+                  <div>
+                    <h3 class="insight-card__title">Buyer Negotiation Style</h3>
+                    <p class="insight-card__lede">How this buyer typically weighs priorities when negotiating.</p>
+                  </div>
+                </div>
+                <div class="insight-card__main">
+                  <div class="negotiation-style-list">
+                    <div class="negotiation-style-item">
+                      <div class="negotiation-style-item__top"><span class="negotiation-style-badge negotiation-style-badge--high">Primary</span><span class="negotiation-style-item__label">Budget / Price</span><span class="negotiation-style-item__pct">42%</span></div>
+                      <div class="negotiation-style-track"><div class="negotiation-style-fill negotiation-style-fill--budget" style="width:42%"></div></div>
+                      <p class="negotiation-style-item__rationale">This buyer consistently anchors early on total contract value. Lead with a clear fixed-fee structure and line-item transparency to build trust before discussing scope flexibility.</p>
+                    </div>
+                    <div class="negotiation-style-item">
+                      <div class="negotiation-style-item__top"><span class="negotiation-style-badge negotiation-style-badge--med">Secondary</span><span class="negotiation-style-item__label">Quality &amp; Rigor</span><span class="negotiation-style-item__pct">33%</span></div>
+                      <div class="negotiation-style-track"><div class="negotiation-style-fill negotiation-style-fill--quality" style="width:33%"></div></div>
+                      <p class="negotiation-style-item__rationale">Evidence standards are non-negotiable for this buyer. Emphasize PRISMA-compliant methodology, senior HEOR review, and audit-ready documentation as differentiators — not just deliverables.</p>
+                    </div>
+                    <div class="negotiation-style-item">
+                      <div class="negotiation-style-item__top"><span class="negotiation-style-badge negotiation-style-badge--med">Secondary</span><span class="negotiation-style-item__label">Speed / Timeline</span><span class="negotiation-style-item__pct">18%</span></div>
+                      <div class="negotiation-style-track"><div class="negotiation-style-fill negotiation-style-fill--speed" style="width:18%"></div></div>
+                      <p class="negotiation-style-item__rationale">Mid-July delivery is a firm internal deadline. Concrete milestone dates and an interim review at week 6 will signal reliability and reduce perceived timeline risk.</p>
+                    </div>
+                    <div class="negotiation-style-item">
+                      <div class="negotiation-style-item__top"><span class="negotiation-style-badge negotiation-style-badge--low">Minor</span><span class="negotiation-style-item__label">Relationship</span><span class="negotiation-style-item__pct">7%</span></div>
+                      <div class="negotiation-style-track"><div class="negotiation-style-fill negotiation-style-fill--relation" style="width:7%"></div></div>
+                      <p class="negotiation-style-item__rationale">Relationship is a low driver in initial negotiations, but buyers in this category show higher repeat-engagement rates when suppliers deliver on commitments. Focus on execution, not rapport.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="insight-card insight-card--paired">
+                <div class="insight-card__head">
+                  <span class="insight-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 16l4-6 4 5 4-9"/></svg></span>
+                  <div>
+                    <h3 class="insight-card__title">Pricing Benchmarks</h3>
+                    <p class="insight-card__lede">Anonymous aggregates for similar dossier contracts on the network.</p>
+                  </div>
+                </div>
+                <div class="insight-card__main">
+                  <div class="benchmark-grid">
+                    <div class="benchmark-tile"><p class="benchmark-tile__label">Typical Contract Range</p><p class="benchmark-tile__figure">$45k – $120k</p><p class="benchmark-tile__note">Based on 38 comparable requests (12 mo.)</p></div>
+                    <div class="benchmark-tile"><p class="benchmark-tile__label">Median Final Contract Value</p><p class="benchmark-tile__figure">$74,500</p><p class="benchmark-tile__note">After negotiation rounds</p></div>
+                    <div class="benchmark-tile"><p class="benchmark-tile__label">Common Concessions</p><p class="benchmark-tile__figure">Milestone billing, phased delivery</p><p class="benchmark-tile__note">Offered in 61% of closed deals</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="modal__disclaimer modal__disclaimer--span-full">Benchmarks are directional aggregates from anonymized platform data. Final terms are defined in the RFP and contract.</p>
+          </div>
+        </div>
+        <div class="modal__footer">
+          <span class="negotiation-footer-note">Powered by platform negotiation data</span>
+          <div class="modal__footer-actions">
+            <button type="button" class="btn btn--ghost">Close</button>
+            <button type="button" class="btn btn--draft" id="openDraft">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Draft Negotiation Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full-viewport popup (opens from "Draft Negotiation Message") -->
+  <div class="ai-modal-wrap" id="aiModalWrap" aria-hidden="true">
+    <div class="ai-modal" role="dialog" aria-labelledby="aiModalTitle" aria-modal="true">
+      <div class="ai-modal__header">
+        <div class="ai-modal__header-text">
+          <p class="ai-modal__title" id="aiModalTitle">Draft Negotiation Message</p>
+          <p class="ai-modal__subtitle">AI-Assisted Drafting</p>
+        </div>
+        <button type="button" class="modal__close" id="closeAiModal" aria-label="Close draft modal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" width="18" height="18" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="ai-modal__body">
+        <div class="tone-row">
+          <span class="tone-label">Tone:</span>
+          <button type="button" class="tone-btn active" data-tone="collaborative">Collaborative</button>
+          <button type="button" class="tone-btn" data-tone="firm">Firm</button>
+          <button type="button" class="tone-btn" data-tone="conciliatory">Conciliatory</button>
+          <button type="button" class="tone-btn" data-tone="direct">Direct</button>
+        </div>
+        <div class="generating" id="generatingIndicator" aria-live="polite">
+          <div class="dot-anim"><span></span><span></span><span></span></div>
+          <span>Drafting message with AI…</span>
+        </div>
+        <label class="visually-hidden" for="msgBox">Draft message</label>
+        <textarea class="msg-box" id="msgBox" spellcheck="true" rows="24"></textarea>
+      </div>
+      <div class="ai-modal__footer">
+        <button type="button" class="regen-btn" id="regenBtn">↻ Regenerate</button>
+        <div class="modal__footer-actions">
+          <button type="button" class="btn btn--ghost" id="closeAiModalFooter">Cancel</button>
+          <button type="button" class="btn btn--primary">Send To Buyer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="modal.js" defer></script>
+</body>
+</html>
